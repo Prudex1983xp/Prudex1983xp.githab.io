@@ -1,0 +1,148 @@
+.box{
+    box-sizing: border-box;
+}
+
+.contener {
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    background: rgb(242, 3, 3);
+}
+.row   {
+    width: 1000px;
+    display: flex;
+    height: 68px;   
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.up {
+    display: flex;
+  
+    padding: 0;
+    margin: 0;
+}
+.up li a {
+    text-transform:uppercase;
+    color: rgb(251, 248, 248);
+    text-decoration: none ;
+    padding:10px;   
+}
+.up li {
+    list-style: none;
+    padding-right: 0px;
+}
+.up li a:hover {
+    background-color: rgb(26, 4, 72);
+    border-radius: 5px;
+    
+}
+.lo {
+    margin-left: 0px;
+}
+.row0 {
+    margin-top: 100px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight:bolder  ;
+    letter-spacing: 20px;
+   
+}
+.row1 {
+    color: rgb(26, 4, 72);
+    
+}
+.row2 {
+    color: aliceblue;
+
+}
+.tex {
+    margin-top: 10px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.Text {
+    width: 600px;
+}
+
+
+
+.box1 {
+    box-sizing: border-box;
+    width: 1200px;
+    background: rgb(217, 216, 219);
+  
+}
+.icon>img { 
+    height: 50px;
+    width: 50px;
+    align-items: center;
+
+
+}
+.icona_text {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icotext {
+    align-items: center;
+
+}
+.text2 {
+    text-align: center;
+}
+.icon {
+   width: 50px;
+   margin: 0 auto; 
+}
+.text1 {
+    display: flex;  
+    font-size: 30px;
+    padding-top: 20px;
+}
+.slov1 {
+    padding-left: 100px;
+    color: rgb(233, 11, 11);
+}
+.slov2 {
+    padding-left: 5px;
+    color: rgb(26, 4, 72);
+}
+
+.box3 {
+    box-sizing: border-box;
+}
+.contener3 {
+    background:rgb(26, 4, 72);
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    
+} 
+.text3 {
+    font-size: 12px;
+    color: beige;
+    padding: 0 400px 0 100px;
+
+}
+.batton {
+    border: 1px solid rgb(230, 13, 13);
+    color: azure;
+    background: rgb(211, 5, 5);
+    border-radius:5px ;
+    margin-right: 100px;
+    padding: 10px 20px;  
+    width: 200px; 
+    text-align: center;  
+    
+}
+    
